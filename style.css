@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+
+    --font-size: 15px;
+}
+
+body {
+    font-family: Outfit, sans-serif;
+    background-color: var(--slate-300);
+    min-height: 100vh;
+    margin: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 21.25rem;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    box-shadow: hsla(216, 15%, 48%, 0.2) 0px 8px 24px;
+}
+
+.card__image {
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card__body {
+    padding: 0.5rem 1.5rem;
+}
+
+.card__lead {
+    color: var(--slate-900);
+    font-weight: 700;
+}
+
+.card__text {
+    font-size: var(--font-size);
+    font-weight: 400;
+    color: var(--slate-500);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Github](https://github.com/mangentemoncarlo/rwd-card-component)
-- Live Site URL: [Vercel](https://responsive-product-card-component.vercel.app/)
+- Solution URL: [Github](https://github.com/mangentemoncarlo/qr-code-component)
+- Live Site URL: [Vercel](https://qr-code-component-mu-navy.vercel.app/)
 
 ## My process
 
